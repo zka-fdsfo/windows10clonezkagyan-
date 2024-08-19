@@ -1344,8 +1344,8 @@ p{
         color: white;
         position: absolute;
         z-index: 200;
-        top: 176px;
-        right: 83px;
+        top: 270px;
+        right: 0px;
     }
   .musicplayer{
     width: 357px;

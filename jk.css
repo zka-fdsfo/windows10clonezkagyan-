@@ -1547,7 +1547,7 @@ margin-top: 10px;
         font-size: 11px;
         margin: 2px 0;
     }
-        .circle {
+    .circle {
         background-color: rgba(61, 61, 61, 0.774);
         border-radius: 50%;
         padding: 3px;
@@ -1637,7 +1637,7 @@ margin-top: 10px;
         background-color: rgb(255, 255, 255);
         border: 2px solid white;
     }
-     .ltr2 {
+    .ltr2 {
         display: flex;
         align-items: center;
         justify-content: center;
@@ -1673,4 +1673,5 @@ margin-top: 10px;
         justify-content: center;
         font-size: 10px;
     }
+    
 }

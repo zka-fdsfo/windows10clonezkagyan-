@@ -1336,17 +1336,17 @@ p{
 .sin:hover{
     background-color: #58575780;
 }
-.maincon{
-    
-display: flex;
-justify-content: flex-end;
-align-items: flex-end;
-color: white;
-position: absolute;
-z-index: 200;
-top:320px;
-right: 0px;
-  }
+
+    .maincon {
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+        color: white;
+        position: absolute;
+        z-index: 200;
+        top: 176px;
+        right: 83px;
+    }
   .musicplayer{
     width: 357px;
 height: 79px;

@@ -1673,5 +1673,18 @@ margin-top: 10px;
         justify-content: center;
         font-size: 10px;
     }
-    
+    .background-video {
+    position: fixed;
+    top: -204px;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: 1000px;
+    height: 1000px;
+    z-index: -1;
+    transform: scaleX(-1);
+    }
+    .u {
+     top: 0px;
+    }
 }

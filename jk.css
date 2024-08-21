@@ -1771,8 +1771,8 @@ margin-top: 10px;
     .rotate-bg{
         background-image: url(bgrot.png);
         background-size: cover;
-       min-width:768px ;
-       min-height: 1500px;
+       min-width:100vh;
+       min-height: 100vh;
        position: absolute;
        z-index: 1000;
     }

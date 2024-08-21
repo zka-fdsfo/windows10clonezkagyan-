@@ -1771,7 +1771,7 @@ margin-top: 10px;
     .rotate-bg{
         background-image: url(bgrot.png);
         background-size: cover;
-       min-width:100vh;
+       min-width:100%;
        min-height: 100vh;
        position: absolute;
        z-index: 1000;
@@ -1781,7 +1781,15 @@ margin-top: 10px;
         width: 25px;
         margin-bottom: -7px;
     }
-    
+    .lock{
+        display: none;
+    }
+    .lock2{
+        display: none;
+    }
+    .asd{
+        display: none;
+    }
 }
 @media screen and (orientation: landscape) {
     .rotate-message{

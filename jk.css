@@ -1765,8 +1765,8 @@ margin-top: 10px;
         text-align: center;
         padding: 20px;
         border-radius: 10px;
-        background: linear-gradient(to bottom, #491d0c7d, #01020abf);
-        width: 200px;
+          background: linear-gradient(to bottom, #0d34877d, #01020abf);
+        width: 207px;
     }
     .rotate-bg{
         background-image: url(bgrot.png);
@@ -1776,9 +1776,10 @@ margin-top: 10px;
        position: absolute;
        z-index: 1000;
     }
-    .rotate-message img{
-        height: 20px;
-        width: 20px;
+    .rotate-message img {
+        height: 25px;
+        width: 25px;
+        margin-bottom: -7px;
     }
     
 }

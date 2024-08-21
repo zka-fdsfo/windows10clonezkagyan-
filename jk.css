@@ -1721,3 +1721,24 @@ margin-top: 10px;
 .bj1{
     font-size: 30px;
 }
+@media screen and (max-width: 900px) {
+    .winpre {
+        background-image: url(PO1.png);
+        height: 122px;
+        width: 122px;
+        background-size: cover;
+        margin-bottom:90px;
+    }
+    .lode {
+        background-image: url(jytujy.gif);
+        background-size: cover;
+        height: 20px;
+        width: 20px;
+        margin-bottom: 5px;
+    }
+    .bj1 {
+        font-size: 14px;
+    }
+    
+
+}

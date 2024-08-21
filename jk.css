@@ -1789,5 +1789,8 @@ margin-top: 10px;
     .rotate-overlay{
         display: none;
     }
+     .rotate-bg{
+        display: none;
+    }
 }
 

@@ -1742,3 +1742,52 @@ margin-top: 10px;
     
 
 }
+@media screen and (max-width: 768px) and (max-height: 1024px) {
+   
+    .rotate-overlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+        backdrop-filter: blur(10px); /* Blur effect */
+        -webkit-backdrop-filter: blur(10px); /* Safari support */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 1000;
+    }
+    
+    .rotate-message {
+        color: white;
+        font-size: 18px;
+        text-align: center;
+        padding: 20px;
+        border-radius: 10px;
+        background: linear-gradient(to bottom, #491d0c7d, #01020abf);
+        width: 200px;
+    }
+    .rotate-bg{
+        background-image: url(bgrot.png);
+        background-size: cover;
+       min-width:768px ;
+       min-height: 1500px;
+       position: absolute;
+       z-index: 1000;
+    }
+    .rotate-message img{
+        height: 20px;
+        width: 20px;
+    }
+    
+}
+@media screen and (max-width: 1024px) and (max-height: 768px) and (orientation: landscape) {
+    .rotate-message{
+        display:none;
+    }
+    .rotate-overlay{
+        display: none;
+    }
+}
+

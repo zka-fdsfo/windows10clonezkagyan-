@@ -1795,6 +1795,8 @@ margin-top: 10px;
     }
 }
 
-  .rotate-message{
-        display:none;
+@media screen and (orientation: landscape){
+    .rotate-overlay{
+        display: none;
     }
+}

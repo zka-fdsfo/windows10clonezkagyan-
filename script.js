@@ -431,5 +431,10 @@ document.querySelector(".lock2").addEventListener("click", function() {
     maincon.style.top = "455px";
 });
 
+var loader = document.getElementById("pre");
+		window.addEventListener("load",function(){
+          loader.style.display="none";
+		  
+		})
 
 

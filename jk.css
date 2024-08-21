@@ -1688,16 +1688,17 @@ margin-top: 10px;
      top: -0px;
     }
     .lode {
-        background-image: url(jytujy.gif);
-        background-size: cover;
-        height: 25px;
-        width: 25px;
-        margin-top: 106px;
-        margin-bottom: 14px;
+            background-image: url(jytujy.gif);
+            background-size: cover;
+            height: 20px;
+            width: 20px;
+            margin-top: 122px;
+            margin-bottom: 30px;
     }
     .bj1 {
-        font-size: 17px;
-        margin-bottom: 10px;
+        font-size: 13px;
+        margin-bottom: -13px;
+
     }
     .winpre {
         background-image: url(PO1.png);

@@ -431,11 +431,14 @@ document.querySelector(".lock2").addEventListener("click", function() {
     maincon.style.top = "455px";
 });
 
+
 var loader = document.getElementById("pre");
 		window.addEventListener("load",function(){
           loader.style.display="none";
 		  
-		})
+		});
+
+
 document.addEventListener("DOMContentLoaded", function() {
     var fnp2Elements = document.querySelectorAll('.fnp2');
 
@@ -536,5 +539,3 @@ document.addEventListener("DOMContentLoaded", function() {
         });
     });
 });
-
-

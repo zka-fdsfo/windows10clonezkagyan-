@@ -539,3 +539,18 @@ document.addEventListener("DOMContentLoaded", function() {
         });
     });
 });
+
+
+
+
+document.querySelector(".lock2").addEventListener("click", function() {
+    const maincon = document.querySelector(".maincon");
+
+    // Function to determine the top value based on screen width
+    function getTopValue() {
+        return window.matchMedia("(max-width: 900px)").matches ? '223px' : '455px';
+    }
+
+    // Apply the top value based on the current screen width
+    maincon.style.top = getTopValue();
+});

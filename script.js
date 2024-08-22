@@ -436,5 +436,105 @@ var loader = document.getElementById("pre");
           loader.style.display="none";
 		  
 		})
+document.addEventListener("DOMContentLoaded", function() {
+    var fnp2Elements = document.querySelectorAll('.fnp2');
+
+    fnp2Elements.forEach(function(fnp2) {
+        var qwElement = fnp2.querySelector('.qw');
+        var y61Element = fnp2.querySelector('.y61');
+        var resizers = qwElement.querySelectorAll('.resizer');
+        var originalWidth, originalHeight, originalX, originalY, originalMouseX, originalMouseY;
+
+        // Function to update the top position based on screen width using media query
+        function updateTopPosition() {
+            var mediaQuery = window.matchMedia("(max-width: 900px)");
+            if (mediaQuery.matches) {
+                qwElement.style.top = '-304px';
+            } else {
+                qwElement.style.top = '-590px';
+            }
+        }
+
+        // Initial call to set the top position based on the current screen width
+        updateTopPosition();
+
+        // Listen for window resize events to adjust the top position dynamically
+        window.addEventListener('resize', updateTopPosition);
+
+        // Toggle visibility of .qw when clicking on .fnp2
+        fnp2.addEventListener('click', function(event) {
+            if (event.target.closest('.y61')) {
+                qwElement.classList.remove('active');
+                qwElement.style.opacity = '0';
+                qwElement.style.visibility = 'hidden';
+                updateTopPosition();  // Ensure top position is updated when hiding
+            } else if (!qwElement.classList.contains('active')) {
+                qwElement.classList.add('active');
+                qwElement.style.opacity = '1';
+                qwElement.style.visibility = 'visible';
+                updateTopPosition();  // Ensure top position is updated when showing
+            }
+        });
+    });
+});
+
+document.addEventListener("DOMContentLoaded", function() {
+    var fnp2Elements = document.querySelectorAll('.fnp2');
+
+    fnp2Elements.forEach(function(fnp2) {
+        var qwElement = fnp2.querySelector('.qw');
+        var y61Element = fnp2.querySelector('.y61');
+
+        // Function to determine the top value based on screen width
+        function getTopValue() {
+            return window.matchMedia("(max-width: 900px)").matches ? '-304px' : '-590px';
+        }
+
+        // Toggle visibility of .qw when clicking on .fnp2
+        fnp2.addEventListener('click', function(event) {
+            if (event.target.closest('.y61')) {
+                qwElement.classList.remove('active');
+                qwElement.style.opacity = '0';
+                qwElement.style.visibility = 'hidden';
+            } else if (!qwElement.classList.contains('active')) {
+                qwElement.classList.add('active');
+                qwElement.style.opacity = '1';
+                qwElement.style.visibility = 'visible';
+            }
+
+            // Apply the top value based on the current screen width
+            qwElement.style.top = getTopValue();
+        });
+    });
+});
+document.addEventListener("DOMContentLoaded", function() {
+    var fnp3Elements = document.querySelectorAll('.fnp3');
+
+    fnp3Elements.forEach(function(fnp3) {
+        var epElement = fnp3.querySelector('.ep');
+        var y62Element = fnp3.querySelector('.y62');
+
+        // Function to determine the top value based on screen width
+        function getTopValue() {
+            return window.matchMedia("(max-width: 900px)").matches ? '-304px' : '-590px';
+        }
+
+        // Toggle visibility of .ep when clicking on .fnp3
+        fnp3.addEventListener('click', function(event) {
+            if (event.target.closest('.y62')) {
+                epElement.classList.remove('active');
+                epElement.style.opacity = '0';
+                epElement.style.visibility = 'hidden';
+            } else if (!epElement.classList.contains('active')) {
+                epElement.classList.add('active');
+                epElement.style.opacity = '1';
+                epElement.style.visibility = 'visible';
+            }
+
+            // Apply the top value based on the current screen width
+            epElement.style.top = getTopValue();
+        });
+    });
+});
 
 

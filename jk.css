@@ -1914,14 +1914,16 @@ margin-top: 10px;
         margin-left: 10px;
     }
     .jad3 {
+            
         height: 29px;
-        margin-left: 7px;
+        margin-left: 15px;
         width: 28px;
         text-align: center;
         display: flex;
         justify-content: center;
         align-items: center;
-        transition: 1ms ease-in 0;
+        transition: 1ms ease-in;
+    
     }
     /* .kp class for mobile devices */
     .kp {
@@ -1946,8 +1948,8 @@ margin-top: 10px;
     .jad2 {
        
         
-        height: 29px;
-        margin-left: 58px;
+                height: 29px;
+        margin-left: 146px;
         width: 81px;
         text-align: center;
         display: flex;

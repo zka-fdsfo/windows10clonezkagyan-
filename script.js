@@ -579,3 +579,50 @@ document.querySelector(".lock2").addEventListener("click", function() {
         maincon.style.top = "455px";
     }
 });
+
+
+document.querySelector('.lq').addEventListener('click', function() {
+    const vpElement = document.querySelector('.vp');
+    const bpElement = document.querySelector('.bp');
+    const currentTop = parseInt(window.getComputedStyle(vpElement).top, 10);
+    
+    // Check if the screen width is 900px or less
+    if (window.matchMedia("(max-width: 900px)").matches) {
+        if (currentTop === 700) {
+            vpElement.style.top = '58px';  // Change top to 58px
+            bpElement.style.top = '700px'; // Ensure bpElement is at the bottom
+        } else {
+            vpElement.style.top = '700px'; // Reset to 700px
+        }
+    } else {
+        if (currentTop === 700) {
+            vpElement.style.top = '150px'; // For larger screens
+            bpElement.style.top = '700px';
+        } else {
+            vpElement.style.top = '700px';
+        }
+    }
+});
+
+document.querySelector('.ghjp').addEventListener('click', function() {
+    const bpElement = document.querySelector('.bp');
+    const vpElement = document.querySelector('.vp');
+    const currentTop = parseInt(window.getComputedStyle(bpElement).top, 10);
+
+    // Check if the screen width is 900px or less
+    if (window.matchMedia("(max-width: 900px)").matches) {
+        if (currentTop === 700) {
+            bpElement.style.top = '58px';  // Change top to 58px
+            vpElement.style.top = '700px'; // Ensure vpElement is at the bottom
+        } else {
+            bpElement.style.top = '700px'; // Reset to 700px
+        }
+    } else {
+        if (currentTop === 700) {
+            bpElement.style.top = '155px'; // For larger screens
+            vpElement.style.top = '700px';
+        } else {
+            bpElement.style.top = '700px';
+        }
+    }
+});

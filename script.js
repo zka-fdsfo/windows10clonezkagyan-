@@ -554,3 +554,16 @@ document.querySelector(".lock2").addEventListener("click", function() {
     // Apply the top value based on the current screen width
     maincon.style.top = getTopValue();
 });
+
+
+
+document.querySelector(".lock2").addEventListener("click", function() {
+    const maincon = document.querySelector(".maincon");
+
+    // Check if the screen height is 304px or less
+    if (window.matchMedia("(max-height: 304px)").matches) {
+        maincon.style.top = "183px";
+    } else {
+        maincon.style.top = "455px";
+    }
+});

@@ -1814,17 +1814,17 @@ margin-top: 10px;
 }
 @media only screen and (max-width: 900px) {
 
-    h4 {
+        h4 {
         position: absolute;
         color: #cccccc96;
         display: flex;
         justify-content: end;
-        bottom: 24px;
-        right: 24px;
+        bottom: 81px;
+        right: 21px;
         text-align: center;
         font-size: 10px;
+        z-index: 10000;
     }
-
 
     .mk {
         background-size: cover;

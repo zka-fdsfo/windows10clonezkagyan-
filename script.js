@@ -567,3 +567,15 @@ document.querySelector(".lock2").addEventListener("click", function() {
         maincon.style.top = "455px";
     }
 });
+
+
+document.querySelector(".lock2").addEventListener("click", function() {
+    const maincon = document.querySelector(".maincon");
+
+    // Check if the screen height is 304px or less
+    if (window.matchMedia("(max-height:339px)").matches) {
+        maincon.style.top = "183px";
+    } else {
+        maincon.style.top = "455px";
+    }
+});

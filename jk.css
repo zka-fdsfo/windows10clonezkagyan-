@@ -120,6 +120,7 @@ body{
     text-align: end;
     animation: colorChange 7s infinite alternate-reverse;
     justify-content: space-between;
+        overflow: hidden;
 
 }
 .f2{

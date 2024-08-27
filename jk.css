@@ -116,15 +116,23 @@ body{
     position: absolute;
     bottom: 0px;
     display: flex;
-    align-items: center;
-    justify-content: start;
     position: absolute;
     text-align: end;
     animation: colorChange 7s infinite alternate-reverse;
+    justify-content: space-between;
 
 }
+.f2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
-
+.c2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 @keyframes colorChange {
     0% { background-color: rgb(212, 193, 167); }
    
@@ -1464,7 +1472,7 @@ margin-top: 10px;
       font-size: 5px;
     margin-left:143px;
   }
-@media screen and (max-width:900px ){
+@media screen and (max-width:50px ){
     .widget {
         background: linear-gradient(to bottom, #4d2720d0, #01020aec);
         padding: 9px;
@@ -1679,7 +1687,7 @@ margin-top: 10px;
     left: 0;
     min-width: 100%;
     min-height: 100%;
-    height: -1px;
+    height: 419px;
     width: 497px;
     z-index: -1;
     transform: scaleX(-1);
@@ -1812,19 +1820,19 @@ margin-top: 10px;
     }
    
 }
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 50px) {
 
-        h4 {
+    h4 {
         position: absolute;
         color: #cccccc96;
         display: flex;
         justify-content: end;
-        bottom: 81px;
-        right: 21px;
+        bottom: 24px;
+        right: 24px;
         text-align: center;
         font-size: 10px;
-        z-index: 10000;
     }
+
 
     .mk {
         background-size: cover;
@@ -1914,16 +1922,14 @@ margin-top: 10px;
         margin-left: 10px;
     }
     .jad3 {
-            
         height: 29px;
-        margin-left: 15px;
+        margin-left: 7px;
         width: 28px;
         text-align: center;
         display: flex;
         justify-content: center;
         align-items: center;
-        transition: 1ms ease-in;
-    
+        transition: 1ms ease-in 0;
     }
     /* .kp class for mobile devices */
     .kp {
@@ -1948,8 +1954,8 @@ margin-top: 10px;
     .jad2 {
        
         
-                height: 29px;
-        margin-left: 146px;
+        height: 39px;
+        margin-left: 58px;
         width: 81px;
         text-align: center;
         display: flex;
@@ -2007,7 +2013,7 @@ margin-top: 10px;
    
 
     .vp {
-        width: 38%;
+        width: 37%;
         height: 265px;
         top: 600px;
     }
@@ -2018,6 +2024,7 @@ margin-top: 10px;
         top: 800px;
         left: 33px;
     }
+
     .qw {
         width: 100%;
         height: 200px;
@@ -2244,6 +2251,88 @@ margin-top: 10px;
     .card p {
         font-size: 6px;
     }
+    .box1 {
+        height: 40px;
+        width: 40px;
+        background-color: #0f59c4;
+        margin-left: 20px;
+    }
+    .box2 {
+        height: 40px;
+        width: 40px;
+        background-color: #bbc1cf;
+        margin-left: 7px;
+    }
+    .box2 {
+        height: 40px;
+        width: 40px;
+        background-color: #bbc1cf;
+        margin-left: 7px;
+    }
+    .g {
+        margin-left: 4px;
+        width: 19px;
+        font-size: 10px;
+        margin-top: 3px;
+    }
+    .ic2 {
+        transform: rotate(-45deg);
+        font-size: 7px;
+        color: white;
+        margin-top: 7px;
+        margin-left: -18px;
+    }
+    .bhy {
+        margin-top: 14px;
+        margin-left: -9px;
+        font-size: 5px;
+        color: white;
+        font-family: unset;
+    }
+    .f {
+        margin-left: -1px;
+        color: #333;
+    }
+    .us1 {
+        height: 24px;
+        width: 166px;
+        transition: opacity 0.5s ease, visibility 0.5s ease;
+    }
+    .fnp8 .lqw2 .us1.o .ic1 {
+        transform: rotate(-45deg);
+        font-size: 14px;
+    }
+    .j2 {
+        margin-left: 1px;
+        font-family: Arial;
+        font-size: 8px;
+    }
+    .fnp8 .lqw2 .us1.o .ic {
+        font-size: 4px;
+        margin-right: 290px;
+        margin-top: 8px;
+    }
+    .fnp8 .lqw2 .us1.o .ic1 {
+        transform: rotate(-45deg);
+        font-size: 11px;
+    }
+    .fnp8 .lqw2 .us1.o .ic {
+        font-size: 5px;
+        margin-right: 95px;
+        margin-top: 8px;
+    }
+    .fnp8 .lqw2 .cb .us .hqw h2:last-child {
+        margin-left: -1px;
+        font-family: Arial;
+        font-size: 9px;
+        color: gray;
+    }
+    .fnp8 .lqw2 .cb .us .hqw h2:first-child {
+        margin-left: 1px;
+        font-family: Arial;
+        font-size: 8px;
+        margin-right: -36px;
+    }
 }
 
 .fnp8 .lqw2 .cb .us .ic {
@@ -2286,3 +2375,12 @@ margin-top: 10px;
     color: black;
 }
 
+@media only screen and (max-width: 900px){
+    html {
+        zoom: 0.5; /* Adjust the zoom level */
+      }
+    .u{
+        top: 0px;
+        
+    }
+}

@@ -1731,7 +1731,7 @@ margin-top: 10px;
     margin-bottom: 220px;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 50px) {
     .winpre {
         background-image: url(PO1.png);
         height: 122px;
